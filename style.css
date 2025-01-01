@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 30px 0;
+  background: #000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header-nav a {
+  color: white;
+  font-size: 26px;
+  margin: 0 25px;
+}
+
+.header button {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 10px 40px;
+}
+
+#hero {
+  padding: 50px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hero-text p {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.hero-text h1 span {
+  color: red;
+}
+
+.contact h1 {
+  color: white;
+  letter-spacing: 3px;
+}
+.contact input{
+  font-size: 30px;
+  outline: none;
+/* background: none; */
+  /* background: 0; */
+background: transparent;
+ border: none;
+color: white;
+border-bottom: 2px solid white;
+padding: 8px 20px;
+}
+#contact{
+  background: #000;
+}
+
+.contact{
+ background: #000;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 20px;
+padding: 8px 20px;
+}
+.contact button {
+  background: black;
+  color: white;
+  width: 100px;
+  height: 20px;
+}
+
+.footer h5 {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.footer {
+  display: flex;
+  color: white;
+  letter-spacing: 2px;
+  justify-content: space-between;
+}
+
+#footer {
+  background: black;
+   padding: 50px 0;
+}
+
+
