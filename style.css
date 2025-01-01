@@ -12,7 +12,10 @@ a {
   width: 1140px;
   margin: 0 auto;
 }
-
+h1{
+  font-size: 20px;
+  color: aqua;
+}
 #header {
   padding: 30px 0;
   background: #000;
